@@ -1,0 +1,44 @@
+<html>
+<head>
+<title> Prob2 </title>
+<SCRIPT LANGUAGE="JavaScript">
+function Done0() {
+<!--
+var fso  = new ActiveXObject("Scripting.FileSystemObject"); 
+
+    	var fh = fso.CreateTextFile("d:\\apply.txt", true); 
+
+	str1 = document.forms[0].elements[0].value
+    	fh.WriteLine(str1); 
+	str2 = document.forms[0].elements[1].value
+    	fh.WriteLine(str2); 
+    	fh.Close(); 
+-->
+
+var fileWriter = new FileWriter("C:\Users\User\Desktop\readme.txt");
+fileWriter.open() ; 
+fileWriter.writeLine("Another line") ; 
+fileWriter.close() ;
+}
+
+</SCRIPT>
+<body>
+<H1 align=center> Using Table object  </h1>
+
+<form>
+지원순서를 입력하세요: <br>
+도시 1 : <input type=text name="inputName"> <br>
+도시 2 : <input type=text name="inputName"> <br>
+도시 3 : <input type=text name="inputName"> <br>
+도시 4 : <input type=text name="inputName"> <br>
+도시 5 : <input type=text name="inputName"> <br>
+도시 6 : <input type=text name="inputName"> <br>
+도시 7 : <input type=text name="inputName"> <br>
+도시 8 : <input type=text name="inputName"> <br>
+도시 9 : <input type=text name="inputName"> <br>
+도시10 : <input type=text name="inputName"> <br>
+<input type=submit name="submit" value="Click" onclick="Done0()">
+</form>
+
+</BODY>
+</HTML>
