@@ -1,7 +1,1 @@
-C:/Users/jhlee/Documents/GitHub/Projects/web_info_boardgame.zip filter=lfs diff=lfs merge=lfs -text
-C:/Users/jhlee/Documents/GitHub/Projects/web_info_boardgame.zip filter=lfs diff=lfs merge=lfs -text
-C:/Users/jhlee/Documents/GitHub/Projects/game_programing.zip filter=lfs diff=lfs merge=lfs -text
-C:/Users/jhlee/Documents/GitHub/Projects/web_info_boardgame.zip filter=lfs diff=lfs merge=lfs -text
-C:/Users/jhlee/Documents/GitHub/Projects/web_info_boardgame.zip filter=lfs diff=lfs merge=lfs -text
-C:/Users/jhlee/Documents/GitHub/Projects/web_info_boardgame.zip filter=lfs diff=lfs merge=lfs -text
-*.zip filter=lfs diff=lfs merge=lfs -text
+game_programing.zip filter=lfs diff=lfs merge=lfs -text
